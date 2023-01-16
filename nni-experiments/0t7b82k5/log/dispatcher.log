@@ -1,0 +1,5 @@
+[2022-10-20 01:25:43] INFO (nni.tuner.random/MainThread) Using random seed 100
+[2022-10-20 01:25:43] INFO (nni.tuner.random/MainThread) Ignored optimize_mode "minimize"
+[2022-10-20 01:25:43] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher started
+[2022-10-20 01:36:43] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher exiting...
+[2022-10-20 01:36:46] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher terminiated

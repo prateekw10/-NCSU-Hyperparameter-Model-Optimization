@@ -1,0 +1,3 @@
+[2022-10-20 00:30:48] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher started
+[2022-10-20 01:03:11] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher exiting...
+[2022-10-20 01:03:13] INFO (nni.runtime.msg_dispatcher_base/MainThread) Dispatcher terminiated

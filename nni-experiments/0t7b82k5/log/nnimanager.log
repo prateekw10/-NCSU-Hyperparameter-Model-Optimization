@@ -1,0 +1,137 @@
+[2022-10-20 01:25:42] INFO (main) Start NNI manager
+[2022-10-20 01:25:42] INFO (NNIDataStore) Datastore initialization done
+[2022-10-20 01:25:42] INFO (RestServer) Starting REST server at port 8091, URL prefix: "/"
+[2022-10-20 01:25:42] INFO (RestServer) REST server started.
+[2022-10-20 01:25:42] INFO (NNIManager) Starting experiment: 0t7b82k5
+[2022-10-20 01:25:42] INFO (NNIManager) Setup training service...
+[2022-10-20 01:25:42] INFO (LocalTrainingService) Construct local machine training service.
+[2022-10-20 01:25:42] INFO (NNIManager) Setup tuner...
+[2022-10-20 01:25:42] INFO (NNIManager) Change NNIManager status from: INITIALIZED to: RUNNING
+[2022-10-20 01:25:43] INFO (NNIManager) Add event listeners
+[2022-10-20 01:25:43] INFO (LocalTrainingService) Run local machine training service.
+[2022-10-20 01:25:43] INFO (NNIManager) NNIManager received command from dispatcher: ID, 
+[2022-10-20 01:25:43] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 40, "lr": 0.006161154236151945, "epsilon": 1e-06}, "parameter_index": 0}
+[2022-10-20 01:25:48] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 0,
+  hyperParameters: {
+    value: '{"parameter_id": 0, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 40, "lr": 0.006161154236151945, "epsilon": 1e-06}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:25:58] INFO (NNIManager) Trial job LjCFk status changed from WAITING to RUNNING
+[2022-10-20 01:26:48] INFO (NNIManager) Trial job LjCFk status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:26:48] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"features1": 400, "features2": 20, "lr": 0.08336105173474741, "epsilon": 1e-06}, "parameter_index": 0}
+[2022-10-20 01:26:53] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 1,
+  hyperParameters: {
+    value: '{"parameter_id": 1, "parameter_source": "algorithm", "parameters": {"features1": 400, "features2": 20, "lr": 0.08336105173474741, "epsilon": 1e-06}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:26:58] INFO (NNIManager) Trial job AUL51 status changed from WAITING to RUNNING
+[2022-10-20 01:27:53] INFO (NNIManager) Trial job AUL51 status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:27:53] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 30, "lr": 0.023484942070221917, "epsilon": 1e-07}, "parameter_index": 0}
+[2022-10-20 01:27:58] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 2,
+  hyperParameters: {
+    value: '{"parameter_id": 2, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 30, "lr": 0.023484942070221917, "epsilon": 1e-07}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:28:03] INFO (NNIManager) Trial job xCC4s status changed from WAITING to RUNNING
+[2022-10-20 01:28:58] INFO (NNIManager) Trial job xCC4s status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:28:58] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 10, "lr": 0.00037151334640915225, "epsilon": 1e-07}, "parameter_index": 0}
+[2022-10-20 01:29:03] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 3,
+  hyperParameters: {
+    value: '{"parameter_id": 3, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 10, "lr": 0.00037151334640915225, "epsilon": 1e-07}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:29:08] INFO (NNIManager) Trial job U7UHu status changed from WAITING to RUNNING
+[2022-10-20 01:30:03] INFO (NNIManager) Trial job U7UHu status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:30:03] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 40, "lr": 0.0007148586062453097, "epsilon": 1e-06}, "parameter_index": 0}
+[2022-10-20 01:30:08] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 4,
+  hyperParameters: {
+    value: '{"parameter_id": 4, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 40, "lr": 0.0007148586062453097, "epsilon": 1e-06}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:30:13] INFO (NNIManager) Trial job DZBfZ status changed from WAITING to RUNNING
+[2022-10-20 01:31:08] INFO (NNIManager) Trial job DZBfZ status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:31:08] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 10, "lr": 0.006305751028514189, "epsilon": 1e-07}, "parameter_index": 0}
+[2022-10-20 01:31:13] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 5,
+  hyperParameters: {
+    value: '{"parameter_id": 5, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 10, "lr": 0.006305751028514189, "epsilon": 1e-07}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:31:18] INFO (NNIManager) Trial job PZpCS status changed from WAITING to RUNNING
+[2022-10-20 01:32:13] INFO (NNIManager) Trial job PZpCS status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:32:13] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 30, "lr": 0.09712506280817317, "epsilon": 1e-06}, "parameter_index": 0}
+[2022-10-20 01:32:18] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 6,
+  hyperParameters: {
+    value: '{"parameter_id": 6, "parameter_source": "algorithm", "parameters": {"features1": 600, "features2": 30, "lr": 0.09712506280817317, "epsilon": 1e-06}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:32:23] INFO (NNIManager) Trial job CxKs2 status changed from WAITING to RUNNING
+[2022-10-20 01:33:18] INFO (NNIManager) Trial job CxKs2 status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:33:18] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 7, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 10, "lr": 0.003037283535203924, "epsilon": 1e-07}, "parameter_index": 0}
+[2022-10-20 01:33:23] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 7,
+  hyperParameters: {
+    value: '{"parameter_id": 7, "parameter_source": "algorithm", "parameters": {"features1": 500, "features2": 10, "lr": 0.003037283535203924, "epsilon": 1e-07}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:33:28] INFO (NNIManager) Trial job u2CVv status changed from WAITING to RUNNING
+[2022-10-20 01:34:24] INFO (NNIManager) Trial job u2CVv status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:34:24] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 8, "parameter_source": "algorithm", "parameters": {"features1": 300, "features2": 40, "lr": 0.08627118513240317, "epsilon": 1e-07}, "parameter_index": 0}
+[2022-10-20 01:34:29] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 8,
+  hyperParameters: {
+    value: '{"parameter_id": 8, "parameter_source": "algorithm", "parameters": {"features1": 300, "features2": 40, "lr": 0.08627118513240317, "epsilon": 1e-07}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:34:34] INFO (NNIManager) Trial job RvwE6 status changed from WAITING to RUNNING
+[2022-10-20 01:35:29] INFO (NNIManager) Trial job RvwE6 status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:35:29] INFO (NNIManager) NNIManager received command from dispatcher: TR, {"parameter_id": 9, "parameter_source": "algorithm", "parameters": {"features1": 400, "features2": 20, "lr": 0.03859596939543242, "epsilon": 1e-06}, "parameter_index": 0}
+[2022-10-20 01:35:34] INFO (NNIManager) submitTrialJob: form: {
+  sequenceId: 9,
+  hyperParameters: {
+    value: '{"parameter_id": 9, "parameter_source": "algorithm", "parameters": {"features1": 400, "features2": 20, "lr": 0.03859596939543242, "epsilon": 1e-06}, "parameter_index": 0}',
+    index: 0
+  },
+  placementConstraint: { type: 'None', gpus: [] }
+}
+[2022-10-20 01:35:39] INFO (NNIManager) Trial job IvgOD status changed from WAITING to RUNNING
+[2022-10-20 01:35:39] INFO (NNIManager) Change NNIManager status from: RUNNING to: NO_MORE_TRIAL
+[2022-10-20 01:36:34] INFO (NNIManager) Trial job IvgOD status changed from RUNNING to SUCCEEDED
+[2022-10-20 01:36:34] INFO (NNIManager) Change NNIManager status from: NO_MORE_TRIAL to: DONE
+[2022-10-20 01:36:34] INFO (NNIManager) Experiment done.
+[2022-10-20 01:36:43] INFO (ShutdownManager) Initiate shutdown: REST request
+[2022-10-20 01:36:43] INFO (RestServer) Stopping REST server.
+[2022-10-20 01:36:43] INFO (NNIManager) Change NNIManager status from: DONE to: STOPPING
+[2022-10-20 01:36:43] INFO (NNIManager) Stopping experiment, cleaning up ...
+[2022-10-20 01:36:46] INFO (RestServer) REST server stopped.
+[2022-10-20 01:36:46] INFO (LocalTrainingService) Stopping local machine training service...
+[2022-10-20 01:36:46] INFO (NNIManager) Change NNIManager status from: STOPPING to: STOPPED
+[2022-10-20 01:36:46] INFO (NNIManager) Experiment stopped.
+[2022-10-20 01:36:46] INFO (NNITensorboardManager) Forced stopping all tensorboard task.
+[2022-10-20 01:36:46] INFO (NNITensorboardManager) All tensorboard task stopped.
+[2022-10-20 01:36:46] INFO (NNITensorboardManager) Tensorboard manager stopped.
+[2022-10-20 01:36:46] INFO (ShutdownManager) Shutdown complete.
