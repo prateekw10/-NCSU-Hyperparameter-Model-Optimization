@@ -1,12 +1,11 @@
-# Hyperparameter-Optimization-NNI
+# Hyperparameter Model Optimizaiton using NNI
 
 ### Requirments
 - torch 
 - nni
 - torchvision
 
-
-### To run the file
+### How to run the code
 
 Running on different configuaration and hyperparameter optimizer technique
 
@@ -17,7 +16,7 @@ Running on different configuaration and hyperparameter optimizer technique
 - python main.py hyperband 1
 - python main.py hyperband 2
 
-The result will be stored in nni-experiments folder.
+The results will be stored in nni-experiments folder.
 
 ### Project Learnings
 
